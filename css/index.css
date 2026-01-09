@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 1);
+}
+
+.container {
+    /* width screen = 1600
+    space left and right = 215px
+    1600 - 215 * 2 = 1170
+    padding left and right = 15px */
+
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.tt2t {
+    font-family: "Raleway";
+    font-style: Bold;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 3%;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.wed {
+    color: rgba(33, 150, 243, 1);
+}
+
+.ui11 {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.first11 {
+    text-decoration: none;
+    color: rgba(33, 33, 33, 1);
+    font-family: "Roboto";
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.first11:hover,.mailto11:hover,.telto22:hover {
+    color: rgba(33, 150, 243, 1);
+}
+
+.adress11 {
+    display: flex;
+    gap: 25px;
+}
+
+.mailto11,.telto22 {
+    color: rgba(117, 117, 117, 1);
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+}
+
+.section1 {
+    background: rgba(47, 48, 58, 1);
+}
+
+.ooo {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Roboto";
+    font-style: Black;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 6%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 452px;
+    padding-right: 452px;
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
+
+.button11 {
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    border: 0;
+    color: rgb(255, 255, 255) ;
+    background-color: rgba(33, 150, 243, 1) ;
+    padding: 10px 32px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.ul-22 {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.first33 {
+    color: rgba(33, 33, 33, 1);
+    font-family: "Roboto";
+    font-style: Bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 3%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.first45 {
+    color: rgba(117, 117, 117, 1);
+    font-family: "Roboto";
+    font-style: "Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: left;
+}
+
+.kjhy {
+    color: rgba(33, 33, 33, 1);
+    font-family: "Roboto";
+    font-style: Bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.section4 {
+    background: rgba(245, 244, 250, 1);
+}
+
+.comanda1 {
+    color: rgba(33, 33, 33, 1);
+    font-family: "Roboto";
+    font-style: Bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.igor1 {
+    border-radius: 0px 0px 4px 4px;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+    width: 280px;
+    height: 368px;
+    color: rgba(33, 33, 33, 1);
+    font-family: "Roboto";
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+footer {
+    background: rgba(47, 48, 58, 1);
+}
+
+.wwweb {
+    font-family: "Raleway";
+    font-style: Bold;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 3%;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.webchic {
+    color: rgba(33, 150, 243, 1);
+}
+
+.address11 {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Roboto";
+    font-style: "Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: left;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.address21 {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Roboto";
+    font-style: "Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: left;
+    text-decoration: none;
+    font-style: normal;
+}
