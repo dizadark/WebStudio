@@ -17,59 +17,98 @@ body {
     margin: 0 auto;
 }
 
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+.header112 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header {
+    padding: 24px 215px 25px 215px;
+    
+}
+
+.ui11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    
+}
+
+.knopku {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 344px;
+}
+
 .tt2t {
-    font-family: "Raleway";
-    font-style: Bold;
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;
     letter-spacing: 3%;
-    text-align: left;
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 1);
+    padding-right: 53px;
 }
 
 .wed {
-    color: rgba(33, 150, 243, 1);
-}
-
-.ui11 {
-    list-style: none;
-    display: flex;
-    gap: 25px;
+    color: #2196f3;
 }
 
 .first11 {
-    text-decoration: none;
     color: rgba(33, 33, 33, 1);
-    font-family: "Roboto";
-    font-style: Medium;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 2%;
-    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all ease 0.3s;
 }
 
-.first11:hover,.mailto11:hover,.telto22:hover {
+.first11:hover {
     color: rgba(33, 150, 243, 1);
-}
-
-.adress11 {
-    display: flex;
-    gap: 25px;
+    transition: all ease 0.3s;
 }
 
 .mailto11,.telto22 {
     color: rgba(117, 117, 117, 1);
-    text-decoration: none;
     font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 2%;
+    text-align: left;
     font-style: normal;
-    font-weight: bold;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+.adress11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mailto11:hover,.telto22:hover {
+    color:#2196f3 ;
+    transition: all ease 0.3s;
 }
 
 .section1 {
     background: rgba(47, 48, 58, 1);
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 
 .ooo {
@@ -81,58 +120,65 @@ body {
     line-height: 60px;
     letter-spacing: 6%;
     text-align: center;
-    text-transform: uppercase;
-    padding-left: 452px;
-    padding-right: 452px;
-    padding-top: 200px;
-    padding-bottom: 280px;
+    width: 696px;
+
 }
 
 .button11 {
-    border-radius: 4px;
-    width: 216px;
-    height: 50px;
-    border: 0;
-    color: rgb(255, 255, 255) ;
-    background-color: rgba(33, 150, 243, 1) ;
-    padding: 10px 32px;
+    color: rgba(255, 255, 255, 1);
     font-family: "Roboto";
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 6%;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(33, 150, 243, 1);
+    border: 0;
+    padding: 10px 32px 10px 32px;
 }
 
-.ul-22 {
-    list-style: none;
+.neaa {
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .first33 {
     color: rgba(33, 33, 33, 1);
     font-family: "Roboto";
-    font-style: Bold;
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 3%;
-    text-align: left;
     text-transform: uppercase;
 }
 
 .first45 {
     color: rgba(117, 117, 117, 1);
     font-family: "Roboto";
-    font-style: "Regular";
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 3%;
-    text-align: left;
+    width: 270px;
+}
+
+.ul-22 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .kjhy {
     color: rgba(33, 33, 33, 1);
     font-family: "Roboto";
-    font-style: Bold;
     font-size: 36px;
     font-weight: 700;
     line-height: 42px;
@@ -140,34 +186,39 @@ body {
     text-align: center;
 }
 
-.section4 {
-    background: rgba(245, 244, 250, 1);
+.photos2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
 }
 
-.comanda1 {
-    color: rgba(33, 33, 33, 1);
-    font-family: "Roboto";
-    font-style: Bold;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: 3%;
-    text-align: center;
-}
-
-ul {
-    list-style: none;
+.section3 {
+    padding-bottom: 94px;
 }
 
 .igor1 {
     border-radius: 0px 0px 4px 4px;
     background: rgba(255, 255, 255, 1);
-    text-align: center;
-    width: 280px;
-    height: 368px;
+     width: 280px;
+}
+
+.section4 {
+    background: rgba(245, 244, 250, 1);
+    padding: 94px 215px 94px 215px;
+}
+
+.comanda2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.h3-here1 {
     color: rgba(33, 33, 33, 1);
     font-family: "Roboto";
-    font-style: Medium;
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
@@ -175,18 +226,37 @@ ul {
     text-align: center;
 }
 
+.p-here1 {
+    color: rgba(117, 117, 117, 1);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.comanda1 {
+    color: rgba(33, 33, 33, 1);
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
 footer {
     background: rgba(47, 48, 58, 1);
+    padding: 60px 215px 60px;
 }
 
 .wwweb {
     font-family: "Raleway";
-    font-style: Bold;
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;
     letter-spacing: 3%;
-    text-align: left;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -197,25 +267,27 @@ footer {
 .address11 {
     color: rgba(255, 255, 255, 1);
     font-family: "Roboto";
-    font-style: "Regular";
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 3%;
-    text-align: left;
-    text-decoration: none;
     font-style: normal;
+    text-decoration: none;
 }
 
 .address21 {
     color: rgba(255, 255, 255, 0.6);
     font-family: "Roboto";
-    font-style: "Regular";
+    font-style: normal;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 3%;
-    text-align: left;
     text-decoration: none;
-    font-style: normal;
+}
+
+.address22 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
